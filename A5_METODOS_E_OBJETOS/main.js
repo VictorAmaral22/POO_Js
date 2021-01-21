@@ -64,7 +64,7 @@ var pessoa2 = {
 
 altThis.call(pessoa2, 'Dandelion', 'Sei lá do que..');
 // ou
-altThis.aply(pessoa2, ['Dandelion', 'Sei lá do que..']);
+altThis.apply(pessoa2, ['Dandelion', 'Sei lá do que..']);
 
 //Podemos usar tbm o Bind, mas ele gera uma função nova
 var getNome = altThis.bind(pessoa2, 'Dandelion', 'Sei lá do que..');
